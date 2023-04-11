@@ -1,6 +1,6 @@
-import { combineReducers } from 'react-redux';
+import { combineReducers } from 'redux';
 
-import appReducers from './appReducer';
+import {appReducers} from './appReducer';
 
 export default combineReducers = combineReducers({
     rates: appReducers,

@@ -1,7 +1,7 @@
 import { ADD, DELETE, EDIT } from '../actions/appActions';
 
 
-export const appReducer = (state = [], action) => {
+ export const appReducer = (state = [], action) => {
     switch (action.type) {
         case ADD:
             return [...state, action.payload];
@@ -29,4 +29,5 @@ export const appReducer = (state = [], action) => {
             return state;
     }
 }
+
  
